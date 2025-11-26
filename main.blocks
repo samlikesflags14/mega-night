@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="C!4!3V9O@Z%+zRANhfZ5" x="287" y="-58"><statement name="HANDLER"><block type="music_playable_play" id="4Nb[!C]JkoH6aZIK%moZ"><field name="playbackMode">music.PlaybackMode.LoopingInBackground</field><value name="toPlay"><shadow type="music_string_playable" id="U|TC1@69Rv|9b/.#x}yd"><value name="melody"><shadow type="melody_editor" id="^r=f^[{(7^m0){-N$;_J"><field name="melody">"A G E F D E G F "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="D[(Psa7W}$sq3{`Kvz)3"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">40</field></shadow></value></shadow></value></block></statement></block><block type="pxt-on-start" id="N/ml6(Z/MtR.BY`yz2[X" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="bGTOzAQH0wZ;?xU6k3wm"><field name="LEDS">`
+        . # # # . 
+        . # . . . 
+        . # # # . 
+        . . . # . 
+        . # # # .
+        `</field><next><block type="device_show_leds" id="h^GL$7k/m:z.xIaE6=0#"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # # # # # 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="n$09Z[`ugcu%4j.YFyWS"><field name="LEDS">`
+        . # . # . 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # . # . #
+        `</field></block></next></block></next></block></statement></block></xml>
